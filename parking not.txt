@@ -10,3 +10,38 @@ npx expo install react-native-maps
 npx expo install expo-task-manager
 npx expo install expo-notifications
 npx expo install @react-native-async-storage/async-storage
+npx expo install expo-splash-screen
+npx expo install expo-av
+npx expo install expo-video
+npx expo install expo-image-picker
+
+
+npx expo start -c
+
+
+
+
+
+generate apk
+npm install -g eas-cli
+eas login
+ srikanthssk
+ pass:s
+
+
+for buld 
+eas build:configure
+
+To generate APK directly:
+eas build --platform android --profile preview
+
+
+Play Store AAB
+eas build --platform android
+
+
+
+
+
+
+npx eas-cli@latest build --platform all
