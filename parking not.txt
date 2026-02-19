@@ -1,0 +1,12 @@
+npx create-expo-app parking-tracker
+cd parking-tracker
+npx expo start
+
+
+
+
+npx expo install expo-location
+npx expo install react-native-maps
+npx expo install expo-task-manager
+npx expo install expo-notifications
+npx expo install @react-native-async-storage/async-storage
